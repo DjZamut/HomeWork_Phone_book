@@ -11,7 +11,7 @@ def main():
             print_info(res_str)
         elif ans == [2, 3, 4]:
             char = get_some_info()
-            full_lst, accept_lst, res_str = searchname(char)
+            full_lst, accept_lst, res_str = search_name(char)
             print_info(accept_lst, res_str)
             if ans == 3 or ans == 4:
                 selected_num = select_name()
